@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav {
+    width: 100%;
+    height: 60px;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sym {
+    color: orangered;
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.back {
+    margin-right: 20px;
+}
+
+button {
+    height: 30px;
+    width: 80px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+button:hover {
+    color: red;
+    font-weight: bold;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.column {
+    width: 40%;
+    padding: 10px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 25px;
+    text-align: center;
+    background-color: #f1f1f1;
+}
+
+span {
+    color: red;
+    font-weight: bold;
+}
+
+.whatsapp,
+.telegram,
+.instagram {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.whatsapp a,
+.telegram a,
+.instagram a {
+    margin-right: 5px;
+}
+
+.whatsapp a:hover,
+.telegram a:hover,
+.instagram a:hover {
+    color: red;
+    ;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    margin-top: 30px;
+    padding: 20px 0;
+    text-align: center;
+}
+span{
+    color: red;
+}
